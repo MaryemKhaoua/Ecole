@@ -75,75 +75,6 @@ main .row {
 .head-text-container-third .justify-content-center h2 {
     font-size: 2.5rem;
 }
-
-.middle-text-container {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
-.middle-text-container:nth-child(1){
-    margin-top: 20px;
-}
-
-.middle-text-container-second{
-    background-color: #0C1827;
-}
-
-.middle-text-container-second div h2 {
-    font-size: 3rem;
-}
-
-.middle-text-container-third {
-    background-color: #ffffffe7;
-}
-
-.end-text-container .text-center h2 {
-    font-size: 2.5rem;
-}
-
-.input-container{
-	position:relative;
-	margin-bottom:25px;
-}
-.input-container label{
-	position:absolute;
-	top:0px;
-	left:12px;
-	font-size:16px;
-	color:#fff;	
-	transition: all 0.5s ease-in-out;
-}
-.input-container input{ 
-  border:0;
-  border-bottom:1px solid #fff;  
-  background:transparent;
-  width:100%;
-  padding:8px 0 5px 0;
-  font-size:16px;
-  color:#fff;
-}
-.input-container input:focus{ 
- border:none;	
- outline:none;
- border-bottom:1px solid #fff;	
-}
-
-.input-container input:focus ~ label {
-	top:-12px;
-	font-size:12px;
-	
-}
-
-.textarea {
-    resize: none;
-    background: none;
-    border: 1px solid #fff;
-    color: #fff;
-    border-radius: 10px;
-}
-
 footer div{
     background-color: #0C1827;
 }
@@ -156,8 +87,21 @@ footer div{
 }
 
 .icon-container .icon-bg{
-    /* background-color: red; */
     border-radius: 50%;
     color: white;
     font-size: 2rem;
 }
+.containerr {
+    position: relative;
+    width: 300px; 
+    height: 200px;
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .icon {
+    position: absolute;
+    top: -20px; /* Adjust the position of the icon as needed */
+    left: calc(50% - 20px); /* Adjust the position of the icon as needed */
+  }
